@@ -1,0 +1,9 @@
+.box1 {
+    padding: 10px;
+    width: 45px;
+    height: 50px;
+    box-shadow: 5Px 1px 7px 5px  black;
+    border: 5px solid rgb(150, 155, 155);
+    padding: 50px;
+
+}

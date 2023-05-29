@@ -1,0 +1,25 @@
+body{
+    background: rgba(165, 150, 122, 0.26);
+}
+.Btn button{
+    padding: 10px;
+    margin: 20px;
+    width: 120px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+     background: rgb(36, 175, 230);
+     box-shadow: 1px 1px 1px  black;
+     border: 1px solid black;
+    cursor: pointer;
+    transition: 0.4s;
+    
+
+}
+.Btn button:hover{
+    box-shadow: 5px 5px 15px 5px  rgb(59, 57, 57);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.274);
+    font-size: 17px;
+    background: rgba(4, 150, 207, 0.63);;
+transition: 0.4s;
+} 
