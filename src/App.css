@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-  margin: auto;
-  width: 90%;
+
   
 }
 
@@ -94,4 +90,14 @@ body {
   color: white;
   border: none;
   border-radius: 5px;
+}
+
+.user-form{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+width: 60%;
+margin: auto;
+height: 50vh;
+padding: 50px  
 }
