@@ -2,7 +2,21 @@
     width: 45px;
     height: 50px;
     box-shadow: 5Px 1px 7px 5px  black;
-    border: 5px solid rgb(150, 155, 155);
+    border: 5px solid white;
     padding: 50px;
-    
+     
+}
+.bnx2{
+    cursor: pointer;
+    width: 150px;
+    height: 37px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background: rgb(109, 109, 179);
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+ 
 }

@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Box from './boxes';
+import Box from './box';
 // import Boxes from './boxes';
 // import Form from './form';
 // import UseRef from './Useref';
@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
 {/* <StateVariable/> */}
-<Box/>
+<Box></Box>
 </div>
 
   );  
