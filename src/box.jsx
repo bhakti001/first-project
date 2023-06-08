@@ -7,6 +7,7 @@ const [addbox, setAddBox] = useState([]);
         const add =[...addbox,[]];
         setAddBox(add);
     };
+    
     return(
         <>
         <button className="bnx2" onClick={()=>Addboxes()}>Add Box</button>
