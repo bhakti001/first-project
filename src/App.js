@@ -1,8 +1,11 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Boxes from './boxes';
-import Form from './form';
-import UseRef from './Useref';
+import Box from './boxes';
+// import Boxes from './boxes';
+// import Form from './form';
+// import UseRef from './Useref';
+// import StateVariable from './stateVariable';
+import AddDynamicInput from './boxes';
 
 function App() {
   // const duplicateArray = Array.from({length:100});
@@ -12,13 +15,15 @@ function App() {
  
   return (
     <div className="App">
-{/* <Form></Form>*/}
-<UseRef/>
-    </div>
+{/* <StateVariable/> */}
+<Box/>
+</div>
+
   );  
 };
 export default App;
 
+{/* <Form></Form>*/}
 // {/* <Post src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg" content={"Wikis oconstantly changes the website landscape."} /> */}
 // {/* <Button content={"Click Here"}/>
 // <Button  content={"Read More"}/>
