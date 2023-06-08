@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-export default function Box() {
-    const [addbox, setAddBox] = useState([]);
+ function Box() {
+const [addbox, setAddBox] = useState([]);
 
     const Addboxes =() => {
         const add =[...addbox,[]];
@@ -21,3 +21,5 @@ export default function Box() {
         </>
     )
 }
+
+export default Box;
