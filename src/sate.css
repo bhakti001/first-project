@@ -1,0 +1,34 @@
+.quots{
+    position: relative;
+    overflow: hidden;
+    min-height: 100vh;
+}
+.quots-text{
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    font-weight: 600;
+    background: linear-gradient(rgb(241,184,12),rgb(4,139,212));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.quots-text.anime{
+    letter-spacing: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.quots-ul{
+    list-style-type:none ;
+}
+.quots-li{
+    font-size: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}

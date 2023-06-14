@@ -1,10 +1,6 @@
 .App {
   text-align: center;
-  display: flex;
-flex-wrap: wrap;
-justify-content: center;
-font-size:large;
-gap: 10px;
+
 }
 
 .App-logo {
@@ -132,3 +128,43 @@ padding: 50px
   background: rgb(109, 109, 179);
   font-size: 25px;
 }
+
+
+
+.quotes{
+  position: relative;
+  overflow: hidden;
+  height: 100vh;
+}
+.quote-text{
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-weight: 600;
+  background: linear-gradient(rgb(241,184,12),rgb(4,139,212));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.quote-text.anime{
+  letter-spacing: 10px;
+  transition: all 0.4s ease-in-out;
+}
+.quote-ul{
+  list-style-type:none ;
+}
+.quote-li{
+  font-size: 50px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+
+

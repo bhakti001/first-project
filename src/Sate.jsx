@@ -1,30 +1,35 @@
-import { useState } from "react"
+import { useState ,useEffect} from "react"
 import { words } from "./App"
 
 
-
-const btn={
-    
-        padding: '10px',
-        margin: '20px',
-        width: '120px',
-        fontFamily: "'Franklin Gothic Medium', 'Arial Narrow', 'Arial, sans-serif'",
-        fontSize: '16px',
-        borderRadius: '5px',
-         background: 'rgb(36, 175, 230)',
-         boxShadow: '1px 1px 1px  black',
-         border: '1px solid black',
-        cursor: 'pointer',
-}
 function State(){
- 
-    
     const [text, setText] = useState("success")
+const [animeClass,setAnimeClass] =useState("")
+    
+    useEffect(() => {
+if (animeClass) {
+    setAnimeClass("");
+    setTimeout(() => {
+       setAnimeClass("anime"); 
+    }, 500);
+}      else{
+    setAnimeClass("anime")
+}
+ } ,[text] )   
     return(
-        <div>
-<h1 style={{fontSize:"200px" , letterSpacing:"20px"}}>{text}</h1>
-<button  style={btn} onClick={()=> setText(words[Math.floor(Math.random() * words.length)]) } > Change text</button>
+        <div className="quotes">
+<h1 className={`quote-text ${animeClass}`}>{text}</h1>
+<ul className="quote-ul">
+{
+    words.map((ele) => (
+
+    <li className="quote-li" onMouseEnter={() => setText(ele)}>{ele}</li>
+    ))
+}
+{/* <button  style={btn} onClick={()=> setText(words[Math.floor(Math.random() * words.length)]) } > Change text</button> */}
+
+</ul>
 </div>
     )
 }
-export default State
+export default State;

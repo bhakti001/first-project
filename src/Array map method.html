@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<body>
+
+<p id="showdata"> </p>
+
+<script>
+
+
+const studentdata = [
+{ id: 1, name: "vinod", degree: "MCS" },
+{ id: 2, name: "Thapa", degree: "MCS" },
+{ id: 3, name: "ThapaTechnical", degree: "MCS" },
+
+];
+
+console.log("My name is "+ studentdata[0].name);
+console.log("My name is "+ studentdata[1].name);
+console.log("My name is "+ studentdata[2].name);
+
+
+const newstudentdata = studentdata.map((value, i) => {
+ // console.log(value.name);
+ // console.log(value.degree);
+ console.log(i, value.name, value.degree);
+ return `My id number is ${value.id+1}. My name is ${value.name}. My highest degree is ${value.degree} ` + "<br>";
+});
+
+console.log(newstudentdata);
+console.log(studentdata);
+
+document.getElementById('showname').innerHTML = newstudentdata;
+ 
+
+// const studentdata = [
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+// { id: 1, name: "vinod", degree: "MCS" },
+// { id: 2, name: "Thapa", degree: "BCS" },
+// { id: 3, name: "ThapaTechnical", degree: "CS" },
+
+// ];
+
+// console.log(studentdata[2].name);
+
+const newdata = studentdata.map( (cvalue) => {
+ return `My name is ${cvalue.name}. My highest degree is ${cvalue.degree}`;
+} );
+
+console.log(newdata);
+
+document.getElementById('showdata').innerHTML = newdata;
+
+</script>
+
+</body>
+</html>

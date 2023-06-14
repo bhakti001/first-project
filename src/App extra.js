@@ -12,6 +12,7 @@
 // const uses 
 // export const colors = ["red","blue","green","yellow","skyblue","cyan","purple","#282c34","#fff","rgba(44, 255, 227, 0.884)"];
 // export const words = ["red","blue","green","yellow","skyblue","cyan","purple","#282c34","#fff","success"];
+// export const words = ["success","Belive", "Always learn","Work in team","Respect","Always Kind","Discipiline"]
 
 
 function hy(){
