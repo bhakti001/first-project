@@ -18,6 +18,7 @@ export default function Password() {
       }
     }
 };
+
 const [lowerValidated, setLowerValidated] = useState(false);
   const [upperValidated, setUpperValidated] = useState(false);
   const [numberValidated, setNumberValidated] = useState(false);
