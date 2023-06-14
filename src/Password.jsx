@@ -5,7 +5,7 @@ const upper="At least one uppercase letter"
 const number="  At least one number"
 const special=" At least one special character"
 const at=" At least 8 characters"
-const click="click"
+const click="👁️"
 export default function Password() {
   const [type, setType] = useState("password");
   const handleToggle = () => {
