@@ -60,6 +60,9 @@ const Ytwrapper = styled.div`
 display:flex;
 gap:10px;
 justify-content:center;
+&:hover{
+    color:red;
+}
 `
 export default Youtube;
 
