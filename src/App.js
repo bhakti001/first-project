@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './Navbar.css'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
@@ -37,6 +38,31 @@ function App() {
         </Maindiv>
         {videoLink && <iframe width="100%" height="800vh" src={link}  title="Coke Studio | Season 14 | Tu Jhoom | Naseebo Lal x Abida Parveen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>} */}
 
+=======
+import { Route, Routes } from 'react-router-dom';
+// import './App.css';
+import './Navbar.css';
+import ContactUs from './ContactUs';
+import About from './About';
+import MainHeader from './MainHeader';
+import Home from './Home';
+import Services from './Services';
+import Search from './Search';
+
+function App() {
+ 
+  return (
+    <div className="App">
+    <Routes>
+      <Route path='/' element={<MainHeader/>}>
+      <Route index path='/' element={<Home/>}/>
+      <Route  path='/services' element={<Services/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/contact' element={<ContactUs/>}/>
+      <Route path='/search' element={<Search/>}/>
+      </Route>
+    </Routes>
+>>>>>>> 23d67654c56c7cfc75b302732235a8121d0ff78b
     </div>
   );
 }

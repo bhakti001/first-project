@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useEffect, useState } from 'react'
 import {   useNavigate } from 'react-router-dom'
 import dayjs from 'dayjs';
@@ -19,4 +20,18 @@ function Home() {
   )
 }
 
+=======
+import React from 'react'
+import Card from './Card'
+
+function Home() {
+  return (
+    <>
+ <Card/>
+    <Card/>
+    <Card/>
+    </>
+  )
+}
+>>>>>>> 23d67654c56c7cfc75b302732235a8121d0ff78b
 export default Home
