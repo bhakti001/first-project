@@ -31,8 +31,19 @@ function hy(){
 
 // ))};  */}
 // {/* <Button/> */}
+{/* LazyLoading 
+{/* <Suspense fallback={<h1>...loading</h1>}>
+<LazyLoading/>
+</Suspense> */}
+/* reacrlist*/
+{/* 
+       {
+        userLis.map((user)=> (
 
-// {/* <button onClick={()=> setCount(count=10 ? count: count+1)}>click me</button> */}
+        <ReactList/>
+        ))
+       } */}
+// {/* <button onClick={()=> setCount(count===10 ? count: count+1)}>click me</button> */}
    {/* <Card name="BHAKTI SAVALIYA" address="sitanagar,surat" dob="01/11/2004" grno="234554" cource="WEB DESIGN"/> */}
       {/* <Box></Box> */}
       {/* <ClassEquipment label={"room 1"}fan={3} whiteboard={"1"} bench={15} projecter={"1"} watch={"1"} ac={"1"} laptop={"5"}/>

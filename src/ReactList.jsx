@@ -1,58 +1,56 @@
 import React from "react";
-import  password from "./Password.css"
-import { userList } from "./App";
 import { styled } from "styled-components";
-// import {styled} from 'styled-components';
+import { userLis } from "./utils/Common";
 export default function ReactList() {
   return (
     <>
       <div style={{backgroundColor: "green",color: "white",padding: "20px",marginBottom: "10px",}}>
       {
-        userList.map((user, idx) => (
+        userLis.map((user, idx) => (
             <div key={idx}>
-            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileNo}</span>
+            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileno}</span>
           </div>
         ))}
       </div>
       <div className="list" >
       {
-        userList.map((user, idx) => (
+        userLis.map((user, idx) => (
             <div key={idx}>
-            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileNo}</span>
+            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileno}</span>
           </div>
         ))}
-      </div>
+      </div> 
       <div className="{styles.list2}">
       {
-        userList.map((user, idx) => (
+        userLis.map((user, idx) => (
             <div key={idx}>
-            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileNo}</span>
+            <label>Name:</label> <span>{user.name}</span> &nbsp;{" "}<label>Mobile No:</label><span>{user.mobileno}</span>
           </div>
         ))}
       </div>
       <Listdiv color="orange">
         {
-          userList.map((user,idx)=> (
+          userLis.map((user,idx)=> (
             <div key={idx}>
-              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileNo}</span>
+              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileno}</span>
             </div>
           ))
         }
       </Listdiv>
       <Listdiv color="orange">
         {
-          userList.map((user,idx)=> (
+          userLis.map((user,idx)=> (
             <div key={idx}>
-              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileNo}</span>
+              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileno}</span>
             </div>
           ))
         }
       </Listdiv>
       <Listdiv color="orange">
         {
-          userList.map((user,idx)=> (
+          userLis.map((user,idx)=> (
             <div key={idx}>
-              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileNo}</span>
+              <label>Name: </label><span>{user.name}</span> &nbsp; <label>Mobile No: </label> <span>{user.mobileno}</span>
             </div>
           ))
         }
