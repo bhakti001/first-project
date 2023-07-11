@@ -40,7 +40,7 @@ function Register() {
               <label>Password</label>
               <input type="password" placeholder="Enter your password"  onChange={(e) => setPassword(e.target.value)}
               />
-              <button>log In</button>
+              <button className="button" style={{width:'260px'}}>log In</button>
             {error && <span style={{ color: "red" }}>{error}</span>}
             </form>
             <div className="bottom">

@@ -16,6 +16,8 @@
 
 
 function hy(){
+  /*  const [videoLink, setVideoLink] = useState("");
+  const link = videoLink.replace('watch?v=','embed/'); */
      // const duplicateArray = Array.from({length:100});
   // const[count,setCount]=UseState(0)
   // const [color,setcolor]= UseState([{Color:"red"},{color:"blue"}])
@@ -28,6 +30,13 @@ function hy(){
 // {/* { duplicateArray.map(() => (
 
 // // <Boxes color={colors[Math.floor(Math.random() * colors.length)]}></Boxes>
+   {/* <Maindiv>
+          {YtData.map((yt) => (
+            <Ytsstyled {...yt} onClick={(link) => setVideoLink(link)}/>
+
+          ))}
+        </Maindiv>
+        {videoLink && <iframe width="100%" height="800vh" src={link}  title="Coke Studio | Season 14 | Tu Jhoom | Naseebo Lal x Abida Parveen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>} */}
 
 // ))};  */}
 // {/* <Button/> */}
