@@ -8,6 +8,7 @@ import MainHeader from "./MainHeader";
 import Login from './Login';
 import PrivateRoute from './utils/PrivateRoute';
 import Register from './Register';
+import UseCallback from './UseCallback';
 // import Recap from './Recap';
 // import UseReducer from './UseReducer';
 
@@ -23,6 +24,7 @@ function App() {
 <Route path='/contact' element={<Contact/>} />
 {/* <Route path='/recap' element={<Recap/>} /> */}
 {/* <Route path='/reduce' element={<UseReducer/>} /> */}
+<Route path='/reduce' element={<UseCallback/>} />
 <Route path='/login' element={<Login/>} />
 <Route path='/register' element={<Register/>} />
 <Route path='*' element={<Error/>} />
