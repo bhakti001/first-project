@@ -1,8 +1,7 @@
-import React, { useCallback, useEffect, useMemo, useState } from 'react'
+import React, { useCallback,  useMemo, useState } from 'react'
 
 function UseCallback() {
     const [number,setNumber] =useState(1);
-    const [numbe,setNumbe] =useState(1);
     
     const memo =useMemo(() => {
         return [number ,number +1 ,number +2 ];
