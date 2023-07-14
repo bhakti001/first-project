@@ -13,11 +13,9 @@ function Home() {
   return (
     <>
 
-    <div>Home</div>
+    {/* <div>Home</div>
     {today}
-    <button onClick={() => navigate('/about')}  className='button'> click me</button>
-
-
+    <button onClick={() => navigate('/about')}  className='button'> click me</button> */}
  <Card/>
     </>
   )

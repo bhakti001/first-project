@@ -1,6 +1,6 @@
 import React from 'react'
 import { Data } from './utils/Comon';
-
+import './Card.css'
 // const img= "https://wallpapercave.com/wp/wp4056410.jpg";
 // const category= "A Netflix Orignal Series";
 // const a = "https://www.netflix.com/in/title/80990668?source=35";

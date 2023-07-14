@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { FaBars,  FaTimes,  FaUserCircle } from "react-icons/fa";
 import {IoMdLogOut } from "react-icons/io";
+import './Navbar.css'
 
 function Header() {
     const [click, setClick] = useState(false);

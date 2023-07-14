@@ -1,4 +1,5 @@
-import './Navbar.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import {Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
@@ -9,6 +10,8 @@ import Login from './Login';
 import PrivateRoute from './utils/PrivateRoute';
 import Register from './Register';
 import UseCallback from './UseCallback';
+import Service from './Service';
+
 // import Recap from './Recap';
 // import UseReducer from './UseReducer';
 
@@ -24,7 +27,9 @@ function App() {
 <Route path='/contact' element={<Contact/>} />
 {/* <Route path='/recap' element={<Recap/>} /> */}
 {/* <Route path='/reduce' element={<UseReducer/>} /> */}
-<Route path='/reduce' element={<UseCallback/>} />
+{/* <Route path='/reduce' element={<UseCallback/>} /> */}
+<Route path='/services' element={<Service/>} />
+
 <Route path='/login' element={<Login/>} />
 <Route path='/register' element={<Register/>} />
 <Route path='*' element={<Error/>} />

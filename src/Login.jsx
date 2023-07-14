@@ -10,7 +10,7 @@ function Login() {
 const users = JSON.parse(localStorage.getItem('user')) ;
 function onSubmit(e){
 e.preventDefault();
-const isExist = users.find(ele => ele.email === email && ele.password === password)
+const isExist = users.find (ele => ele.email === email && ele.password === password ) 
 if (isExist){
     localStorage.setItem('loggedIn',true);
     navigate('/');
